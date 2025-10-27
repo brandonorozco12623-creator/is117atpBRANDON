@@ -1,3 +1,0 @@
-# Test
-
-<http://example.com>
