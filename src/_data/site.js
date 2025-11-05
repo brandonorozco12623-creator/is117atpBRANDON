@@ -3,9 +3,7 @@ module.exports = {
   description:
     process.env.SITE_DESCRIPTION ||
     'Professional mental health counseling services for individuals, couples, and families. Compassionate care for anxiety, depression, trauma, and life transitions.',
-  url:
-    process.env.SITE_URL ||
-    'https://kaw393939.github.io/is117_ai_test_practice',
+  url: process.env.SITE_URL || 'http://localhost:3000',
   author: process.env.SITE_AUTHOR || 'Serenity Counseling Center',
   phone: '(555) 123-4567',
   email: 'info@serenitycounseling.com',

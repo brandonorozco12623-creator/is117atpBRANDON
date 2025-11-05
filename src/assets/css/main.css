@@ -17,6 +17,14 @@
   --shadow-sm: 0 2px 4px rgb(0 0 0 / 8%);
   --shadow-md: 0 4px 12px rgb(0 0 0 / 12%);
   --shadow-lg: 0 8px 24px rgb(0 0 0 / 15%);
+  --header-bg: #2d6a5a;
+  --header-text: #fff;
+  --button-primary: #2d6a5a;
+  --button-hover: #1f4d3f;
+  --gradient-overlay: linear-gradient(
+    rgb(45 106 90 / 90%),
+    rgb(45 106 90 / 70%)
+  );
 }
 
 *,
@@ -39,6 +47,7 @@ body {
   line-height: 1.7;
   color: var(--color-text);
   background-color: var(--color-background);
+  overflow-x: hidden;
 }
 
 h1,

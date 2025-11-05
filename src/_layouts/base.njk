@@ -18,7 +18,14 @@
     <meta name="theme-color" content="#2d6a5a" />
 
     <title>{{ title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
+  {# Use root-relative assets in development so local serve finds files; in production keep url filter #}
+  {% if site.environment == 'development' %}
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  {% else %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/components.css' | url }}" />
+  {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -146,6 +153,10 @@
       </div>
     </footer>
 
-    <script src="{{ '/assets/js/main.js' | url }}"></script>
+  {% if site.environment == 'development' %}
+  <script src="/assets/js/main.js"></script>
+  {% else %}
+  <script src="{{ '/assets/js/main.js' | url }}"></script>
+  {% endif %}
   </body>
 </html>
