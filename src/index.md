@@ -1,98 +1,141 @@
 ---
 layout: base.njk
-title: Home
+title: Welcome
 description:
-  Self-paced course teaching production-ready web development using AI coding
-  assistants with automated quality gates
+  Professional mental health counseling services for individuals, couples, and
+  families. Compassionate care for anxiety, depression, trauma, and life
+  transitions.
 ---
 
 <section class="hero">
-  <h2>🚀 AI-Assisted Web Development</h2>
-  <p>
-    Learn to build production-ready websites using AI coding assistants while
-    maintaining professional code quality standards.
-  </p>
-  <div class="hero-buttons">
-    <a href="/is117_ai_test_practice/lessons/" class="btn btn-primary">Start Learning</a>
-    <a href="/is117_ai_test_practice/for-instructors/" class="btn btn-secondary">For Instructors</a>
-  </div>
-</section>
-
-<section class="features">
-  <h2>What You'll Learn</h2>
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h3>🤖 AI Collaboration</h3>
-      <p>Work WITH AI assistants effectively using prompt engineering and quality gates.</p>
-    </div>
-    <div class="feature-card">
-      <h3>✅ Quality Automation</h3>
-      <p>ESLint, Prettier, and pre-commit hooks catch errors before deployment.</p>
-    </div>
-    <div class="feature-card">
-      <h3>🚀 CI/CD Pipeline</h3>
-      <p>Automated testing and deployment with GitHub Actions and Lighthouse CI.</p>
-    </div>
-    <div class="feature-card">
-      <h3>♻️ DRY Principles</h3>
-      <p>Prevent code duplication with automated detection and enforcement.</p>
+  <div class="hero-content">
+    <h1 class="hero-title">Your Journey to Wellness Starts Here</h1>
+    <p class="hero-subtitle">
+      Compassionate, professional mental health counseling in a safe and supportive environment
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary">Schedule Appointment</a>
+      <a href="{{ '/about/' | url }}" class="btn btn-secondary">Our Services</a>
     </div>
   </div>
 </section>
 
-<section class="course-info">
-  <h2>Course Overview</h2>
-  <div class="info-grid">
-    <div class="info-box">
-      <h3>⏱️ Time Commitment</h3>
-      <p><strong>Reading:</strong> ~2 hours<br>
-      <strong>Practice:</strong> ~4-6 hours<br>
-      <strong>Total:</strong> 6-8 hours</p>
+<section class="welcome-section">
+  <div class="welcome-content">
+    <h2>Welcome to Serenity Counseling Center</h2>
+    <p class="lead">
+      At Serenity Counseling Center, we understand that seeking help is a courageous first step.
+      Our team of licensed, experienced therapists is dedicated to providing personalized care
+      that addresses your unique needs and goals.
+    </p>
+    <p>
+      Whether you're facing anxiety, depression, relationship challenges, trauma, or life transitions,
+      we're here to support you with evidence-based therapeutic approaches in a confidential,
+      non-judgmental space.
+    </p>
+  </div>
+</section>
+
+<section class="services-preview">
+  <h2>Our Specialized Services</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <div class="service-icon">🧠</div>
+      <h3>Individual Therapy</h3>
+      <p>Personalized one-on-one counseling for anxiety, depression, stress management, and personal growth.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
     </div>
-    <div class="info-box">
-      <h3>🎯 Prerequisites</h3>
-      <p>None! Basic HTML/CSS helpful but not required. We'll guide you through everything.</p>
+    <div class="service-card">
+      <div class="service-icon">💑</div>
+      <h3>Couples Counseling</h3>
+      <p>Strengthen your relationship, improve communication, and rebuild trust with expert guidance.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
     </div>
-    <div class="info-box">
-      <h3>📚 10 Lessons</h3>
-      <p>Bite-sized lessons with hands-on practice, knowledge checks, and troubleshooting.</p>
+    <div class="service-card">
+      <div class="service-icon">👨‍👩‍👧‍👦</div>
+      <h3>Family Therapy</h3>
+      <p>Navigate family dynamics, resolve conflicts, and create healthier relationships together.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🌱</div>
+      <h3>Trauma Recovery</h3>
+      <p>Evidence-based treatment for PTSD, childhood trauma, and traumatic experiences using EMDR and CBT.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎯</div>
+      <h3>Life Transitions</h3>
+      <p>Support through major life changes including career shifts, loss, divorce, and identity exploration.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🧘</div>
+      <h3>Mindfulness & Wellness</h3>
+      <p>Learn stress reduction techniques, mindfulness practices, and holistic approaches to mental health.</p>
+      <a href="{{ '/about/' | url }}" class="service-link">Learn More →</a>
     </div>
   </div>
 </section>
 
-<section class="who-for">
-  <h2>Who This Is For</h2>
-  <div class="audience-grid">
-    <div class="audience-card">
-      <h3>🎓 Students</h3>
-      <p>Learn at your own pace with self-serve lessons, AI prompts, and comprehensive guides.</p>
-      <a href="/is117_ai_test_practice/lessons/">Browse Lessons →</a>
+<section class="why-choose">
+  <h2>Why Choose Serenity Counseling</h2>
+  <div class="benefits-grid">
+    <div class="benefit-item">
+      <h3>✓ Licensed Professionals</h3>
+      <p>All our therapists are licensed, credentialed, and continually trained in the latest therapeutic techniques.</p>
     </div>
-    <div class="audience-card">
-      <h3>👨‍🏫 Instructors</h3>
-      <p>Use as curriculum with activities, assessments, and flexible integration options.</p>
-      <a href="/is117_ai_test_practice/for-instructors/">Teaching Resources →</a>
+    <div class="benefit-item">
+      <h3>✓ Personalized Care</h3>
+      <p>We create individualized treatment plans tailored to your specific needs, goals, and circumstances.</p>
     </div>
-    <div class="audience-card">
-      <h3>💼 Professionals</h3>
-      <p>Modernize your workflow with industry-standard CI/CD and AI collaboration skills.</p>
-      <a href="/is117_ai_test_practice/resources/">Resources →</a>
+    <div class="benefit-item">
+      <h3>✓ Evidence-Based Approaches</h3>
+      <p>We utilize proven therapeutic methods including CBT, DBT, EMDR, and mindfulness-based interventions.</p>
+    </div>
+    <div class="benefit-item">
+      <h3>✓ Confidential & Safe</h3>
+      <p>Your privacy is paramount. We maintain strict confidentiality and provide a judgment-free environment.</p>
+    </div>
+    <div class="benefit-item">
+      <h3>✓ Flexible Scheduling</h3>
+      <p>Evening and weekend appointments available to accommodate your busy schedule.</p>
+    </div>
+    <div class="benefit-item">
+      <h3>✓ Insurance Accepted</h3>
+      <p>We accept most major insurance plans and offer affordable self-pay options.</p>
     </div>
   </div>
 </section>
 
-<section class="quick-start">
-  <h2>Quick Start</h2>
-  <div class="content">
-    <ol>
-      <li><strong>Fork the repository</strong> on GitHub (top right button)</li>
-      <li><strong>Clone your fork:</strong> <code>git clone https://github.com/YOUR-USERNAME/is117_ai_test_practice.git</code></li>
-      <li><strong>Install dependencies:</strong> <code>npm install</code></li>
-      <li><strong>Start developing:</strong> <code>npm start</code></li>
-      <li><strong>Follow Lesson 1</strong> to understand what you just set up!</li>
-    </ol>
-    <p class="cta-box">
-      <a href="https://github.com/kaw393939/is117_ai_test_practice" class="btn btn-large">View on GitHub</a>
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonial-grid">
+    <div class="testimonial-card">
+      <p class="testimonial-text">"The therapists at Serenity helped me through one of the darkest periods of my life. Their compassion and expertise made all the difference. I'm forever grateful."</p>
+      <p class="testimonial-author">— Sarah M.</p>
+    </div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">"After years of struggling with anxiety, I finally found the support I needed. The techniques I learned here have transformed my daily life."</p>
+      <p class="testimonial-author">— Michael R.</p>
+    </div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">"Couples counseling saved our marriage. We learned to communicate better and rediscovered why we fell in love. Thank you!"</p>
+      <p class="testimonial-author">— Jennifer & David T.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" id="contact">
+  <div class="cta-content">
+    <h2>Ready to Take the First Step?</h2>
+    <p>Contact us today to schedule your confidential consultation. We're here to support you on your journey to wellness.</p>
+    <div class="cta-buttons">
+      <a href="{{ '/resources/' | url }}" class="btn btn-primary btn-large">Schedule Appointment</a>
+      <a href="tel:+15551234567" class="btn btn-secondary btn-large">Call: (555) 123-4567</a>
+    </div>
+    <p class="emergency-note">
+      <strong>In Crisis?</strong> If you're experiencing a mental health emergency, please call 911 or the National Suicide Prevention Lifeline at 988.
     </p>
   </div>
 </section>

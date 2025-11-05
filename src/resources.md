@@ -1,103 +1,157 @@
 ---
 layout: base.njk
-title: Resources
+title: Contact & Appointments
 description:
-  AI prompts, reference guides, external documentation, and learning supplements
+  Schedule your appointment or get in touch with Serenity Counseling Center
 ---
 
 {% include "page-header.njk" %}
 
 <div class="content">
 
-## 🤖 AI Prompts (Copy-Paste Ready)
+## Schedule Your Appointment
 
-<div class="resource-section">
+Taking the first step toward better mental health is courageous. We make it easy
+to get started.
 
-### For Setup & Configuration
+---
 
-- **[Initial Setup Prompts](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/prompts/initial-setup.md)** -
-  Get started fast with environment setup
-- **[Configuration Prompts](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/prompts/configuration.md)** -
-  Set up ESLint, Prettier, Stylelint, and more (7 prompts)
+## Contact Information
 
-### For Building
+<div class="contact-info-grid">
 
-- **[Building Pages Prompts](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/prompts/building-pages.md)** -
-  Create pages with mandatory DRY enforcement (7 prompts)
-- **[Avoiding Duplication Guide](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/prompts/avoiding-duplication.md)** -
-  Critical reading before using AI
+### 📞 Phone
 
-### For Debugging
+**Main Office:** (555) 123-4567  
+**Crisis Line:** Available 24/7 at 988
 
-- **[Debugging Prompts](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/prompts/debugging.md)** -
-  Fix common issues with AI assistance (8 prompts)
+### ✉️ Email
+
+**General Inquiries:** <info@serenitycounseling.com>  
+**New Clients:** <newclients@serenitycounseling.com>
+
+### 📍 Location
+
+**Serenity Counseling Center**  
+123 Wellness Way, Suite 200  
+Peaceful City, ST 12345
+
+**Parking:** Free parking available in the building lot  
+**Accessibility:** Fully wheelchair accessible
+
+### 🕐 Office Hours
+
+**Monday - Friday:** 8:00 AM - 8:00 PM  
+**Saturday:** 9:00 AM - 5:00 PM  
+**Sunday:** Closed
+
+_Evening and weekend appointments available to accommodate your schedule_
 
 </div>
 
 ---
 
-## 📖 Reference Documentation
+## How to Get Started
 
-<div class="resource-section">
+<div class="steps-section">
 
-### Quick References
+### 1. Initial Consultation
 
-- **[NPM Scripts Cheatsheet](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/reference/npm-scripts.md)** -
-  All available commands
-- **[File Structure Guide](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/reference/file-structure.md)** -
-  What each file does
-- **[Glossary](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/reference/glossary.md)** -
-  50+ terms defined with cross-references
+Call us at **(555) 123-4567** or email **<newclients@serenitycounseling.com>**
+to schedule a free 15-minute phone consultation. We'll discuss your needs and
+help match you with the right therapist.
 
-### Deep Dives
+### 2. Insurance Verification
 
-- **[Duplication Detection](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/reference/duplication-detection.md)** -
-  How jscpd works
-- **[AI Development Guide](https://github.com/kaw393939/is117_ai_test_practice/blob/main/docs/reference/AI-GUIDE.md)** -
-  Best practices for AI-assisted coding
+We'll verify your insurance coverage and discuss payment options. We accept most
+major insurance plans and offer affordable self-pay rates.
+
+### 3. First Appointment
+
+Your first session is typically 60-90 minutes. We'll discuss your concerns,
+goals, and develop a personalized treatment plan together.
+
+### 4. Ongoing Support
+
+Therapy sessions are usually 50-60 minutes, scheduled weekly or bi-weekly based
+on your needs and preferences.
 
 </div>
 
 ---
 
-## 🌐 External Resources
+## Frequently Asked Questions
 
-<div class="resource-section">
+<div class="faq-section">
 
-### Official Documentation
+### What should I expect in my first session?
 
-**Primary Technologies:**
+Your first appointment is about getting to know each other. We'll discuss what
+brought you to therapy, your goals, and answer any questions. There's no
+pressure - it's a safe space to share at your own pace.
 
-- [Eleventy (11ty) Documentation](https://www.11ty.dev/docs/) - Our static site
-  generator
-- [Node.js Official Guide](https://nodejs.org/en/docs/) - JavaScript runtime
-- [GitHub Actions Docs](https://docs.github.com/en/actions) - CI/CD automation
+### How long does therapy take?
 
-**Quality Tools:**
+This varies by individual and concern. Some people benefit from short-term
+focused therapy (8-12 sessions), while others prefer ongoing support. We'll work
+together to determine what's best for you.
 
-- [ESLint Rules Reference](https://eslint.org/docs/rules/) - JavaScript linting
-- [Prettier Options](https://prettier.io/docs/en/options.html) - Code formatting
-- [Stylelint](https://stylelint.io/) - CSS linting
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Performance
-  testing
+### Is therapy confidential?
+
+Yes. Everything discussed in therapy is strictly confidential, with limited
+exceptions required by law (risk of harm to self/others, suspected child/elder
+abuse).
+
+### Do you accept insurance?
+
+We accept most major insurance plans including Blue Cross Blue Shield, Aetna,
+Cigna, UnitedHealthcare, and Medicare. We also offer self-pay options.
+
+### What if I need to cancel?
+
+We require 24-hour notice for cancellations. Late cancellations or no-shows may
+be charged to ensure availability for all clients.
+
+### Do you offer virtual sessions?
+
+Yes! We offer secure telehealth sessions via HIPAA-compliant video platform for
+your convenience and privacy.
+
+</div>
 
 ---
 
-### Video Tutorials (Supplemental)
+## Emergency Resources
 
-- [Eleventy Crash Course](https://www.youtube.com/results?search_query=eleventy+crash+course) -
-  YouTube
-- [Git & GitHub for Beginners](https://www.youtube.com/results?search_query=git+github+for+beginners) -
-  YouTube
-- [CI/CD Explained](https://www.youtube.com/results?search_query=ci+cd+explained) -
-  YouTube
+**If you are in crisis or experiencing a mental health emergency:**
+
+- **Call 911** for immediate emergency assistance
+- **National Suicide Prevention Lifeline:** 988 (call or text)
+- **Crisis Text Line:** Text HOME to 741741
+- **National Domestic Violence Hotline:** 1-800-799-7233
+- **SAMHSA National Helpline:** 1-800-662-4357
+
+**Our therapists are available during office hours. For after-hours emergencies,
+please use the resources above.**
 
 ---
 
-### Interactive Learning
+## Request an Appointment
 
-- [Learn Git Branching](https://learngitbranching.js.org/) - Visual Git tutorial
-- [GitHub Skills](https://skills.github.com/) - Hands-on GitHub practice
+<div class="appointment-form-section">
+
+**Ready to schedule?**
+
+**Call:** (555) 123-4567  
+**Email:** <newclients@serenitycounseling.com>
+
+**Or visit our office during business hours. We look forward to supporting you
+on your journey to wellness.**
+
+</div>
+
+---
+
 - [MDN Web Docs](https://developer.mozilla.org/) - HTML/CSS/JS reference
 
 ---

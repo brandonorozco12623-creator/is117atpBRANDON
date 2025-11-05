@@ -1,101 +1,139 @@
 ---
 layout: base.njk
-title: About This Course
+title: Our Services
 description:
-  Learn about the quality-first approach to AI-assisted web development
+  Comprehensive mental health counseling services tailored to your unique needs
 ---
 
 {% include "page-header.njk" %}
 
 <div class="content">
 
-## 🎯 Our Mission
+## Our Therapeutic Services
 
-To teach developers how to **collaborate with AI coding assistants** while
-maintaining professional code quality standards through automated testing and
-quality gates.
-
----
-
-## 💡 Why This Course Exists
-
-**The Problem:** AI coding assistants are powerful, but they generate code that
-often duplicates existing code, lacks consistent formatting, contains subtle
-bugs, and violates best practices.
-
-**The Solution:** This course teaches you to use **automated quality gates**
-that catch these issues before deployment. You learn to work WITH AI, not
-blindly trust it.
+At Serenity Counseling Center, we offer a comprehensive range of evidence-based
+therapeutic services designed to support your mental health and well-being.
 
 ---
 
-## 🏗️ What Makes This Different
+## Individual Therapy
 
-### 1. Self-Paced, Not Passive
+### What We Treat
 
-Hands-on practice in every lesson with knowledge checks, real projects you can
-deploy, and no video lectures to fall asleep through.
+Our licensed therapists specialize in treating:
 
-### 2. Quality-First, Not Quality-Later
+- **Anxiety Disorders** - Generalized anxiety, panic attacks, social anxiety,
+  phobias
+- **Depression** - Major depression, persistent depressive disorder, seasonal
+  affective disorder
+- **Stress Management** - Work stress, life pressures, burnout prevention
+- **Trauma & PTSD** - Childhood trauma, complex trauma, traumatic events
+- **Grief & Loss** - Bereavement, life transitions, loss processing
+- **Self-Esteem Issues** - Building confidence, overcoming negative self-talk
+- **Life Transitions** - Career changes, relocation, identity exploration
+- **Anger Management** - Healthy emotional expression and regulation
 
-Quality gates run BEFORE commits (not after). Automation catches errors
-immediately. Bad habits prevented, not fixed later.
+### Therapeutic Approaches
 
-### 3. AI-Augmented, Not AI-Replaced
-
-You control the AI. Learn prompt engineering as a skill, verify AI output with
-automated checks, and understand principles beyond just tools.
-
----
-
-## 📊 Course Statistics
-
-- **Educational Quality:** 9.75/10 ⭐⭐⭐⭐⭐
-- **Technical Quality:** 10/10 (0% duplication)
-- **Completion Time:** 6-8 hours
-- **Lessons:** 10 comprehensive modules
-- **AI Prompts:** 22 copy-paste ready
-
----
-
-## 🛠️ Technologies Covered
-
-### Core Stack
-
-- Eleventy, Node.js, GitHub Pages
-
-### Quality Tools
-
-- ESLint, Prettier, Stylelint, jscpd, Lighthouse
-
-### Automation
-
-- Husky, lint-staged, GitHub Actions
+- Cognitive Behavioral Therapy (CBT)
+- Dialectical Behavior Therapy (DBT)
+- Eye Movement Desensitization and Reprocessing (EMDR)
+- Mindfulness-Based Therapy
+- Solution-Focused Brief Therapy
+- Person-Centered Therapy
 
 ---
 
-## 📈 Learning Outcomes
+## Couples Counseling
 
-Students who complete this course will be able to:
+Strengthen your relationship and build lasting connection through:
 
-1. ✅ Prompt AI effectively
-2. ✅ Implement quality gates
-3. ✅ Prevent code duplication
-4. ✅ Deploy with confidence via CI/CD
-5. ✅ Debug systematically
-6. ✅ Work with industry-standard tools
+- **Communication Skills** - Learn to express needs and listen effectively
+- **Conflict Resolution** - Navigate disagreements constructively
+- **Trust Rebuilding** - Heal from betrayal and rebuild intimacy
+- **Pre-Marital Counseling** - Start your marriage on solid ground
+- **Intimacy Issues** - Reconnect emotionally and physically
+- **Blended Family Challenges** - Navigate complex family dynamics
 
 ---
 
-## 📜 License
+## Family Therapy
 
-**MIT Licensed** - Free for educational use
+Create healthier family relationships through:
+
+- **Parent-Child Conflicts** - Bridge generational gaps
+- **Sibling Rivalry** - Foster positive relationships between children
+- **Behavioral Issues** - Address challenging behaviors in children/teens
+- **Family Communication** - Improve how your family talks and listens
+- **Life Transitions** - Navigate changes together as a family unit
+- **Blended Family Integration** - Create harmony in restructured families
+
+---
+
+## Specialized Programs
+
+### Trauma Recovery Program
+
+Our trauma-informed approach combines EMDR, CBT, and somatic therapies to help
+you:
+
+- Process traumatic memories safely
+- Reduce PTSD symptoms
+- Develop healthy coping mechanisms
+- Reclaim your sense of safety and control
+
+### Mindfulness & Wellness Program
+
+Learn practical skills for lasting well-being:
+
+- Mindfulness meditation techniques
+- Stress reduction strategies
+- Emotional regulation skills
+- Mind-body connection practices
+- Work-life balance strategies
+
+### Teen & Young Adult Services
+
+Specialized support for ages 13-25:
+
+- Identity exploration and self-discovery
+- Academic pressure and performance anxiety
+- Social media and technology challenges
+- Peer relationships and social skills
+- College transitions and future planning
+
+---
+
+## Our Therapists
+
+All our therapists are:
+
+- ✓ Licensed by the state board
+- ✓ Experienced with diverse populations
+- ✓ Trained in evidence-based practices
+- ✓ Committed to ongoing professional development
+- ✓ Dedicated to providing culturally sensitive care
+
+---
+
+## Insurance & Payment
+
+We accept most major insurance plans including:
+
+- Blue Cross Blue Shield
+- Aetna
+- Cigna
+- UnitedHealthcare
+- Medicare
+
+**Self-Pay Options:** Affordable rates available for those without insurance or
+preferring not to use insurance benefits.
 
 ---
 
 <p class="cta-box">
-  <a href="/is117_ai_test_practice/lessons/" class="btn btn-primary">Start Learning</a>
-  <a href="https://github.com/kaw393939/is117_ai_test_practice" class="btn btn-secondary">GitHub</a>
+  <a href="{{ '/resources/' | url }}" class="btn btn-primary">Schedule Appointment</a>
+  <a href="{{ '/' | url }}" class="btn btn-secondary">Back to Home</a>
 </p>
 
 </div>
