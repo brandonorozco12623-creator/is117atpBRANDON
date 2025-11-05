@@ -163,15 +163,6 @@
   background-color: var(--color-background-alt);
 }
 
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 var(--spacing);
-}
-
 .testimonial-card {
   background: var(--color-background);
   border-radius: 8px;
