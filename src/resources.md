@@ -22,27 +22,24 @@ to get started.
 
 ### 📞 Phone
 
-**Main Office:** (555) 123-4567  
-**Crisis Line:** Available 24/7 at 988
+**Main Office:** (555) 123-4567 **Crisis Line:** Available 24/7 at 988
 
 ### ✉️ Email
 
-**General Inquiries:** <info@serenitycounseling.com>  
-**New Clients:** <newclients@serenitycounseling.com>
+**General Inquiries:** <info@serenitycounseling.com> **New Clients:**
+<newclients@serenitycounseling.com>
 
 ### 📍 Location
 
-**Serenity Counseling Center**  
-123 Wellness Way, Suite 200  
-Peaceful City, ST 12345
+**Serenity Counseling Center** 123 Wellness Way, Suite 200 Peaceful City, ST
+12345
 
-**Parking:** Free parking available in the building lot  
-**Accessibility:** Fully wheelchair accessible
+**Parking:** Free parking available in the building lot **Accessibility:** Fully
+wheelchair accessible
 
 ### 🕐 Office Hours
 
-**Monday - Friday:** 8:00 AM - 8:00 PM  
-**Saturday:** 9:00 AM - 5:00 PM  
+**Monday - Friday:** 8:00 AM - 8:00 PM **Saturday:** 9:00 AM - 5:00 PM
 **Sunday:** Closed
 
 _Evening and weekend appointments available to accommodate your schedule_
@@ -142,8 +139,7 @@ please use the resources above.**
 
 **Ready to schedule?**
 
-**Call:** (555) 123-4567  
-**Email:** <newclients@serenitycounseling.com>
+**Call:** (555) 123-4567 **Email:** <newclients@serenitycounseling.com>
 
 **Or visit our office during business hours. We look forward to supporting you
 on your journey to wellness.**
