@@ -7,7 +7,7 @@
     "build": "eleventy",
     "clean": "rm -rf _site",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md && npm run lint:format && npm run lint:duplication",
-    "lint:js": "eslint \"src/**/*.js\" \".eleventy.js\"",
+    "lint:js": "eslint --no-ignore \"src/**/*.js\" \".eleventy.js\"",
     "lint:css": "stylelint \"src/**/*.css\"",
     "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore _site",
     "lint:format": "prettier --check \"**/*.{js,css,md,html,json}\" --ignore-path .gitignore",
