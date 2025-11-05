@@ -2,6 +2,7 @@
   "name": "117-site",
   "version": "1.0.0",
   "description": "Static site with code quality gates and Lighthouse CI",
+  "homepage": "https://brandonorozco12623-creator.github.io",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
